@@ -23,6 +23,21 @@
 module LFSR(
     input CLK,
     input Reset,
-    output [7:0] Y
+    output reg [8:1] Y
     );
+    
+    always @ (posedge CLK) begin
+        if(Reset) Y <= 'b1;
+        else begin
+            Y[1] <= Y[4] ^ Y[5] ^ Y[6] ^ Y[8];
+            Y[2] <= Y[1];
+            Y[3] <= Y[2];
+            Y[4] <= Y[3];
+            Y[5] <= Y[4];
+            Y[6] <= Y[5];
+            Y[7] <= Y[6];
+            Y[8] <= Y[7];
+        end
+        
+    end
 endmodule
