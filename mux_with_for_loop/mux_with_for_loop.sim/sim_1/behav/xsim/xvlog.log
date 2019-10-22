@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Desktop/Xilinx Project/mux_with_for_loop/mux_with_for_loop.srcs/sources_1/new/mux_for.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_for
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Desktop/Xilinx Project/mux_with_for_loop/mux_with_for_loop.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

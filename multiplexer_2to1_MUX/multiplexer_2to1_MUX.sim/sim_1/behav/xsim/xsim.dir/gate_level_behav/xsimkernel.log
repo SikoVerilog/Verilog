@@ -1,0 +1,7 @@
+Running: xsim.dir/gate_level_behav/xsimk.exe -simmode gui -wdb gate_level_behav.wdb -simrunnum 0 -socket 61176
+Design successfully loaded
+Design Loading Memory Usage: 6728 KB (Peak: 6728 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7360 KB (Peak: 7360 KB)
+Simulation CPU Usage: 46 ms

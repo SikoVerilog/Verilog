@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Oct  4 09:03:50 2019
+# Process ID: 2332
+# Current directory: C:/Users/Sanaullah/Desktop/Xilinx Project/multiplexer_with_case/multiplexer_with_case.runs/synth_1
+# Command line: vivado.exe -log mux_case.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_case.tcl
+# Log file: C:/Users/Sanaullah/Desktop/Xilinx Project/multiplexer_with_case/multiplexer_with_case.runs/synth_1/mux_case.vds
+# Journal file: C:/Users/Sanaullah/Desktop/Xilinx Project/multiplexer_with_case/multiplexer_with_case.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux_case.tcl -notrace

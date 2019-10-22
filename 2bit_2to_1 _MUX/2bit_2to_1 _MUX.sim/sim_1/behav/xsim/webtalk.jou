@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Oct  1 04:58:29 2019
+# Process ID: 4580
+# Current directory: C:/Users/Sanaullah/Desktop/Xilinx Project/2bit_2to_1 _MUX/2bit_2to_1 _MUX.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Sanaullah/Desktop/Xilinx Project/2bit_2to_1 _MUX/2bit_2to_1 _MUX.sim/sim_1/behav/xsim/xsim.dir/test_bench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Sanaullah/Desktop/Xilinx Project/2bit_2to_1 _MUX/2bit_2to_1 _MUX.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Sanaullah/Desktop/Xilinx Project/2bit_2to_1 _MUX/2bit_2to_1 _MUX.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Sanaullah/Desktop/Xilinx -notrace

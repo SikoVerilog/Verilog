@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Desktop/Xilinx Project/D_flip_flope/D_flip_flope.srcs/sources_1/new/D_flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_flip_flop
+WARNING: [VRFC 10-1315] redeclaration of ansi port Q is not allowed [C:/Users/Sanaullah/Desktop/Xilinx Project/D_flip_flope/D_flip_flope.srcs/sources_1/new/D_flip_flop.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Desktop/Xilinx Project/D_flip_flope/D_flip_flope.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Desktop/Xilinx Project/D_flip_flope/D_flip_flope.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

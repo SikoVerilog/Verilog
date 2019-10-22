@@ -1,0 +1,8 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.srcs/sim_1/new/FA_tb.v,1569693425,verilog,,,,FA_tb,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.srcs/sources_1/new/FA_HA.v,1569693447,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.srcs/sources_1/new/HA_gatelevel.v,,FA_HA,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.srcs/sources_1/new/HA_gatelevel.v,1569693997,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Full_adder/Full_adder.srcs/sim_1/new/FA_tb.v,,HA_gatelevel,,,,,,,,

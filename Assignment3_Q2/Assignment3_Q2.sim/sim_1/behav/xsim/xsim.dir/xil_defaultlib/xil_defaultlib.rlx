@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sim_1/new/testbench.v,1570900922,verilog,,,,testbench,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/ADD.v,1570900008,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/AND.v,,ADD,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/AND.v,1570900075,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/MUX_Selection.v,,AND,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/MUX_Selection.v,1570900265,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/Processor.v,,MUX_Selection,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/Processor.v,1570900742,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/SUB.v,,Processor,,,,,,,,
+C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sources_1/imports/new/SUB.v,1570900123,verilog,,C:/Users/Sanaullah/Desktop/Xilinx Project/Assignment3_Q2/Assignment3_Q2.srcs/sim_1/new/testbench.v,,SUB,,,,,,,,
