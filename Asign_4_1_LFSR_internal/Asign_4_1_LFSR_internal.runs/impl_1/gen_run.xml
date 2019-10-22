@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tsbg484-2L" LaunchTime="1571765221">
+  <File Type="PWROPT-DCP" Name="LFSR_internal_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="LFSR_internal_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LFSR_internal.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="LFSR_internal_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LFSR_internal_reports.tcl"/>
+  <File Type="BG-DRC" Name="LFSR_internal.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LFSR_internal_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LFSR_internal_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="LFSR_internal.hwdef"/>
+  <File Type="OPT-DCP" Name="LFSR_internal_opt.dcp"/>
+  <File Type="OPT-DRC" Name="LFSR_internal_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="LFSR_internal_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="LFSR_internal_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LFSR_internal_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LFSR_internal_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LFSR_internal_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LFSR_internal_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LFSR_internal_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LFSR_internal_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LFSR_internal_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LFSR_internal_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LFSR_internal_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="LFSR_internal_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LFSR_internal_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LFSR_internal_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LFSR_internal_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LFSR_internal_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="LFSR_internal.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="LFSR_internal_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LFSR_internal_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LFSR_internal_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LFSR_internal_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LFSR_internal_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LFSR_internal_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="LFSR_internal.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="LFSR_internal_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="LFSR_internal.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LFSR_internal_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="LFSR_internal.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LFSR_internal_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="LFSR_internal.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LFSR_internal_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LFSR_internal_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LFSR_internal_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LFSR_internal_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LFSR_internal_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LFSR_internal_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LFSR_internal_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LFSR_internal_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="LFSR_internal.vdi"/>
+  <File Type="ROUTE-CLK" Name="LFSR_internal_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LFSR_internal_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LFSR_internal_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LFSR_internal_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LFSR_internal_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LFSR_internal_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="LFSR_internal.nky"/>
+  <File Type="BITSTR-BMM" Name="LFSR_internal_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="LFSR_internal.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LFSR_internal.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="LFSR_internal.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/LFSR_internal.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LFSR_internal"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
