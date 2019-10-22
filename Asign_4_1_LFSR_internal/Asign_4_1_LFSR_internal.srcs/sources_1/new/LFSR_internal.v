@@ -27,7 +27,7 @@ module LFSR_internal(
     );
     
     always @ (posedge CLK)begin
-        if(Reset) Y <= 8'b00000000;
+        if(Reset) Y <= 'b1;
         else begin
             Y[0] <= Y[7];
             Y[1] <= Y[0];

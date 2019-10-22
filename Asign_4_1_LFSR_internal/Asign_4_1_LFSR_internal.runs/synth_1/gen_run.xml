@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a200tsbg484-2L" LaunchTime="1571765166">
+<GenRun Id="synth_1" LaunchPart="xc7a200tsbg484-2L" LaunchTime="1571765872">
   <File Type="PA-TCL" Name="LFSR_internal.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="LFSR_internal_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="LFSR_internal_reports.tcl"/>
