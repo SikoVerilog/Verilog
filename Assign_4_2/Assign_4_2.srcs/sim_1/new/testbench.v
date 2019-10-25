@@ -33,7 +33,8 @@ module testbench;
         .Data_in(Data_in),
         .Data_out(Data_out)
         );
-    integer i, temp = 36'b000101100010101111101100111111101100;
+    integer i;
+    reg [35:0]temp = 36'b000101100010101111101100111111101100;
                            // 001101111111001101111101010001101000;
     initial
         CLK = 1'b0;
