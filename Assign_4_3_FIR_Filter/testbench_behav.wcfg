@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="130200001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/testbench/X" type="array">
+      <obj_property name="ElementShortName">X[15:0]</obj_property>
+      <obj_property name="ObjectShortName">X[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/S" type="array">
+      <obj_property name="ElementShortName">S[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/T" type="array">
+      <obj_property name="ElementShortName">T[15:0]</obj_property>
+      <obj_property name="ObjectShortName">T[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/U" type="array">
+      <obj_property name="ElementShortName">U[15:0]</obj_property>
+      <obj_property name="ObjectShortName">U[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/V" type="array">
+      <obj_property name="ElementShortName">V[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/W" type="array">
+      <obj_property name="ElementShortName">W[15:0]</obj_property>
+      <obj_property name="ObjectShortName">W[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Y" type="array">
+      <obj_property name="ElementShortName">Y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
