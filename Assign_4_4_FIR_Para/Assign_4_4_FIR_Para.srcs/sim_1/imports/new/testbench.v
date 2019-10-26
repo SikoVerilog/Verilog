@@ -25,7 +25,7 @@ module testbench;
     reg CLK, Reset;
     wire [15:0] Y;
     
-    FIR_Para #(16, 16, 16, 5, 80) uut(
+    FIR_Para #(16, 16, 16, 5, 80) uut(//instantiation of design
         .X(X),
         .CLK(CLK), 
         .Reset(Reset),
@@ -33,16 +33,19 @@ module testbench;
         .Cof({W, V, U, T, S}));
         
     integer i;
+    //clock genration
     initial 
         CLK = 1'b0;
         always 
             #10 CLK = ~CLK;
             
     initial begin
+        //cofficient value assigning
         S = 16'd1; T = 16'd2; U = 16'd3; V = 16'd2; W = 16'd1;
         Reset = 1'b1;
         #20
         Reset = 1'b0;
+        //sequence genration
         for(i=1; i<9; i=i+1) begin
             X = i;
             #20;

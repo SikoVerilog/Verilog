@@ -25,7 +25,7 @@ module testbench;
     reg CLK, Reset;
     wire [15:0] Y;
     
-    FIR_filter uut(
+    FIR_filter uut( //instantiation of module
         .X(X),
         .S(S),
         .T(T),
@@ -37,17 +37,18 @@ module testbench;
         .Y(Y));
         
     integer i;
-    initial 
+    initial //Clock genration
         CLK = 1'b0;
         always 
             #10 CLK = ~CLK;
             
     initial begin
-        S = 16'd1; T = 16'd2; U = 16'd3; V = 16'd2; W = 16'd1;
+        S = 16'd1; T = 16'd2; U = 16'd3; V = 16'd2; W = 16'd1;//Cofficiants
         Reset = 1'b1;
         #20
         Reset = 1'b0;
-        for(i=1; i<9; i=i+1) begin
+        //Sequence genration
+        for(i=1; i<9; i=i+1) begin 
             X = i;
             #20;
         end
