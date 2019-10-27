@@ -29,11 +29,13 @@ module FSM_1101(
     output reg [3:0] Data_out
     );
     
-    reg [1:0] Current = State0, Next = State0;
     parameter State0 = 2'b00,
               State1 = 2'b01,
               State2 = 2'b10,
               State3 = 2'b11;
+    
+    reg [1:0] Current, Next;
+    
     //State register 
     always @ (posedge CLK) begin
         if(Reset) begin
