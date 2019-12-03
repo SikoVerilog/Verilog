@@ -60,6 +60,7 @@ module testbench;
             #20;
             
         end
+        X = 'b0;
         $fclose(file);
         //$fclose(file1);
     end
