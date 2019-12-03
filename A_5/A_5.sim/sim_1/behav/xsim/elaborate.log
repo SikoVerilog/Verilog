@@ -1,0 +1,20 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c4c68e7ecdae4b9f95138b8d904672c7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FIR_filter
+Compiling module xil_defaultlib.testbench
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 49. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 50. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 51. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 52. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 53. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 54. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/A_5/A_5.srcs/sim_1/imports/new/testbench.v" Line 61. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

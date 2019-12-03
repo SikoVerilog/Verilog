@@ -1,0 +1,28 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 399904df12d949dca213f1e6f487dee5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 12. Module fir_4tap doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sources_1/new/g.v" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fir_4tap
+Compiling module xil_defaultlib.tb
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 46. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 47. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 48. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 49. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 50. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 51. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/project_1assigment/project_1assigment.srcs/sim_1/new/testbench.v" Line 54. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
