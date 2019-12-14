@@ -21,12 +21,12 @@
 
 
 module testbench;
-    reg signed [9:0] X;
-    reg signed [7:0] C[5:0];
+    reg signed [8:0] X;
+    reg signed [6:0] C[5:0];
     reg CLK, Reset;
-    wire signed [17:0] Y;
+    wire signed [15:0] Y;
     
-    FIR_Para #(10, 18, 8, 6, 48) uut(//instantiation of design
+    FIR_Para #(9, 16, 7, 6, 42) uut(//instantiation of design
         .X(X),
         .CLK(CLK), 
         .Reset(Reset),
@@ -41,7 +41,7 @@ module testbench;
             #10 CLK = ~CLK;
             
     initial begin
-        file = $fopen("C:/Users/Sanaullah/Desktop/ADSD/Matlab work/input.txt","r");
+        file = $fopen("C:/Users/Sanaullah/Desktop/ADSD/Matlab work/input_a.txt","r");
         //file1 = $fopen("C:/Users/Sanaullah/Desktop/ADSD/Matlab work/vivado_output.txt","w");
         $fscanf(file,"%b\n",C[0]);
         $fscanf(file,"%b\n",C[1]);
@@ -65,7 +65,7 @@ module testbench;
         //$fclose(file1);
     end
     always @(*)begin
-            file1 = $fopen("C:/Users/Sanaullah/Desktop/ADSD/Matlab work/vivado_output.txt","a");
+            file1 = $fopen("C:/Users/Sanaullah/Desktop/ADSD/Matlab work/vivado_output_a.txt","a");
             $fdisplay(file1,"%b",Y);
             $fclose(file1);
     end

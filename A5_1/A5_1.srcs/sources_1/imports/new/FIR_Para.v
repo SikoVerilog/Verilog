@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FIR_Para # (parameter I_W = 10, O_W = 18, C_W = 8, Tap = 6, C_T=48) (
+module FIR_Para # (parameter I_W = 9, O_W = 16, C_W = 7, Tap = 6, C_T=42) (
     input signed [I_W-1 :0] X,
     input CLK, 
     input Reset,
