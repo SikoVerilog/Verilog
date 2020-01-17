@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DRUMk_M_N_s
+INFO: [VRFC 10-311] analyzing module dsmk_mn
+INFO: [VRFC 10-311] analyzing module LOD_k
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:101]
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:102]
+INFO: [VRFC 10-311] analyzing module P_Encoder_k
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:125]
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:126]
+INFO: [VRFC 10-311] analyzing module Barrel_Shifter_k_mn
+WARNING: [VRFC 10-756] identifier m_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:141]
+WARNING: [VRFC 10-756] identifier k_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:142]
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:143]
+INFO: [VRFC 10-311] analyzing module Mux_16_3_k
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:157]
+WARNING: [VRFC 10-756] identifier n_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:158]
+WARNING: [VRFC 10-756] identifier k_in is used before its declaration [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:159]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/I.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sim_1/imports/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,20 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 1f6cb043756945b1bab8e31ab513a816 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.LOD_k(k_in=4)
+Compiling module xil_defaultlib.P_Encoder_k(k_in=4)
+Compiling module xil_defaultlib.Mux_16_3_k(k_in=4)
+Compiling module xil_defaultlib.Barrel_Shifter_k_mn(k_in=4)
+Compiling module xil_defaultlib.dsmk_mn(k_in=4)
+Compiling module xil_defaultlib.DRUMk_M_N_s
+Compiling module xil_defaultlib.H1
+Compiling module xil_defaultlib.testbench
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H1/H1.srcs/sim_1/imports/new/testbench.v" Line 48. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

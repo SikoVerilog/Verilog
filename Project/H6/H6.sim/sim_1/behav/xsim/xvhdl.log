@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_accurate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_accurate
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_approx_a8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_approx_a8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_approx_d4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_approx_d4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_approx_o4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_approx_o4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_mod_16_AccAccAccAcc_AccAccAccAcc_a8_dAccod.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_mod_16_AccAccAccAcc_AccAccAccAcc_a8_dAccod
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_mod_8_AccAccAccAcc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_mod_8_AccAccAccAcc
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H6/H6.srcs/sources_1/imports/Project/mult_mod_8_dAccod.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_mod_8_dAccod

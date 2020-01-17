@@ -1,0 +1,51 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 6880709101ac4d17906b587f2ec6a3a4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011110001000100001...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011110000111100001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111100001111000011...]
+Compiling architecture behavioral of entity xil_defaultlib.mult_accurate [mult_accurate_default]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000101111110100011...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111111111111111...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011001100110011001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011111111000000001...]
+Compiling architecture behavioral of entity xil_defaultlib.mult_mod_8_AccAccAccAcc [mult_mod_8_accaccaccacc_default]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100010001000100010...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100101100110011001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011001100110011001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100101101001011010...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011101111111011101...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011001100110011001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100001110111011101...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011110001000100001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100001110111011101...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011010101100000001...]
+Compiling architecture behavioral of entity xil_defaultlib.mult_approx_a8 [mult_approx_a8_default]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011010101100000001...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000111100110011001...]
+Compiling architecture behavioral of entity xil_defaultlib.mult_approx_d4 [mult_approx_d4_default]
+Compiling architecture behavioral of entity xil_defaultlib.mult_mod_8_dAccdd [mult_mod_8_daccdd_default]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100000000000000000...]
+Compiling architecture behavioral of entity xil_defaultlib.mult_mod_16_AccAccAccAcc_AccAccAccAcc_a8_dAccdd [mult_mod_16_accaccaccacc_accacca...]
+Compiling module xil_defaultlib.H5
+Compiling module xil_defaultlib.testbench
+WARNING: [XSIM 43-3373] "C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H5/H5.srcs/sim_1/imports/new/testbench.v" Line 48. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

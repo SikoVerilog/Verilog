@@ -1,0 +1,380 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jan  8 21:17:25 2020
+# Process ID: 13792
+# Current directory: C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.runs/synth_1
+# Command line: vivado.exe -log H2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source H2.tcl
+# Log file: C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.runs/synth_1/H2.vds
+# Journal file: C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source H2.tcl -notrace
+Command: synth_design -top H2 -part xc7vx485tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11540 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 391.109 ; gain = 99.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'H2' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/I.v:23]
+INFO: [Synth 8-638] synthesizing module 'DRUMk_M_N_s' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:35]
+	Parameter k bound to: 6 - type: integer 
+	Parameter n bound to: 16 - type: integer 
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'dsmk_mn' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:61]
+	Parameter k_in bound to: 6 - type: integer 
+	Parameter n_in bound to: 16 - type: integer 
+	Parameter m_in bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'LOD_k' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:100]
+	Parameter k_in bound to: 6 - type: integer 
+	Parameter n_in bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LOD_k' (1#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:100]
+INFO: [Synth 8-638] synthesizing module 'P_Encoder_k' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:124]
+	Parameter k_in bound to: 6 - type: integer 
+	Parameter n_in bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'P_Encoder_k' (2#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:124]
+INFO: [Synth 8-638] synthesizing module 'Mux_16_3_k' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:156]
+	Parameter k_in bound to: 6 - type: integer 
+	Parameter n_in bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mux_16_3_k' (3#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:156]
+INFO: [Synth 8-638] synthesizing module 'Barrel_Shifter_k_mn' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:140]
+	Parameter k_in bound to: 6 - type: integer 
+	Parameter n_in bound to: 16 - type: integer 
+	Parameter m_in bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Barrel_Shifter_k_mn' (4#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:140]
+INFO: [Synth 8-256] done synthesizing module 'dsmk_mn' (5#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:61]
+INFO: [Synth 8-256] done synthesizing module 'DRUMk_M_N_s' (6#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:35]
+INFO: [Synth 8-256] done synthesizing module 'H2' (7#1) [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/I.v:23]
+WARNING: [Synth 8-3331] design Mux_16_3_k has unconnected port in_a[15]
+WARNING: [Synth 8-3331] design Mux_16_3_k has unconnected port in_a[1]
+WARNING: [Synth 8-3331] design Mux_16_3_k has unconnected port in_a[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 443.098 ; gain = 151.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 443.098 ; gain = 151.504
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/constrs_1/imports/new/Constraint.xdc]
+Finished Parsing XDC File [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/constrs_1/imports/new/Constraint.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 957.738 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.srcs/sources_1/imports/new/DRUMk_M_N_s.v:168]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 8     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 8     
+	   2 Input      2 Bit        Muxes := 8     
+	  11 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module H2 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+Module LOD_k 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Mux_16_3_k 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 1     
+Module dsmk_mn 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+Module DRUMk_M_N_s 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M4/\U1/u5/out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (M4/\U1/u5/out_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M4/\U1/u5/out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (M4/\U1/u5/out_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (M3/\U1/u5/out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M3/\U1/u5/out_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (M3/\U1/u5/out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M3/\U1/u5/out_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M2/\U1/u5/out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M2/\U1/u5/out_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M2/\U1/u5/out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M2/\U1/u5/out_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M1/\U1/u5/out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M1/\U1/u5/out_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M1/\U1/u5/out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (M1/\U1/u5/out_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[3]) is unused and will be removed from module DRUMk_M_N_s__1.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[2]) is unused and will be removed from module DRUMk_M_N_s__1.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[1]) is unused and will be removed from module DRUMk_M_N_s__1.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[0]) is unused and will be removed from module DRUMk_M_N_s__1.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[3]) is unused and will be removed from module DRUMk_M_N_s__2.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[2]) is unused and will be removed from module DRUMk_M_N_s__2.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[1]) is unused and will be removed from module DRUMk_M_N_s__2.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[0]) is unused and will be removed from module DRUMk_M_N_s__2.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[3]) is unused and will be removed from module DRUMk_M_N_s__3.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[2]) is unused and will be removed from module DRUMk_M_N_s__3.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[1]) is unused and will be removed from module DRUMk_M_N_s__3.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[0]) is unused and will be removed from module DRUMk_M_N_s__3.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[3]) is unused and will be removed from module DRUMk_M_N_s.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[2]) is unused and will be removed from module DRUMk_M_N_s.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[1]) is unused and will be removed from module DRUMk_M_N_s.
+WARNING: [Synth 8-3332] Sequential element (U1/u5/out_reg[0]) is unused and will be removed from module DRUMk_M_N_s.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 957.738 ; gain = 666.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 995.148 ; gain = 703.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    27|
+|3     |LUT1   |     5|
+|4     |LUT2   |    21|
+|5     |LUT3   |    67|
+|6     |LUT4   |   101|
+|7     |LUT5   |   135|
+|8     |LUT6   |   252|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   112|
+|11    |LD     |    16|
+|12    |IBUF   |    18|
+|13    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |   788|
+|2     |  M1     |DRUMk_M_N_s   |   122|
+|3     |    U1   |dsmk_mn_7     |   122|
+|4     |      u6 |Mux_16_3_k_8  |   112|
+|5     |  M2     |DRUMk_M_N_s_0 |   127|
+|6     |    U1   |dsmk_mn_5     |   127|
+|7     |      u6 |Mux_16_3_k_6  |   120|
+|8     |  M3     |DRUMk_M_N_s_1 |   148|
+|9     |    U1   |dsmk_mn_3     |   148|
+|10    |      u6 |Mux_16_3_k_4  |   134|
+|11    |  M4     |DRUMk_M_N_s_2 |   187|
+|12    |    U1   |dsmk_mn       |   187|
+|13    |      u6 |Mux_16_3_k    |   180|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1013.336 ; gain = 721.742
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:39 . Memory (MB): peak = 1013.336 ; gain = 207.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1013.336 ; gain = 721.742
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 12 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LD => LDCE: 4 instances
+  LD => LDCE (inverted pins: G): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 1016.820 ; gain = 737.734
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H2/H2.runs/synth_1/H2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file H2_utilization_synth.rpt -pb H2_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.578 . Memory (MB): peak = 1016.820 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  8 21:18:32 2020...

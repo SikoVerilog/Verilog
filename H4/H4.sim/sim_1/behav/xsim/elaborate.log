@@ -1,0 +1,7 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e2de214b12034ac0b71cfb61d90b9101 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-975] left bound value <35> of slice is out of range [31:0] of array <s_reg> [C:/Users/Sanaullah/Documents/GitHub/Verilog/Project/H4/H4.srcs/sources_1/imports/Project/adder_acc.vhd:121]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

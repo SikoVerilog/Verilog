@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../H4.srcs/sources_1/imports/Project/adder_acc.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_accurate.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_approx_a4.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_approx_a8.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_approx_d4.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_approx_o4.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_mod_16_AccAccAccAcc_AccAccAccAcc_a8_aAccod.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_mod_8_AccAccAccAcc.vhd" \
+"../../../../H4.srcs/sources_1/imports/Project/mult_mod_8_aAccod.vhd" \
+
+# Do not sort compile order
+nosort
